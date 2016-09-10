@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div ng-app="myApp">
+    <div>
+        <a ui-sref="home" ui-sref-active="active">Home</a>
+        <a ui-sref="about" ui-sref-active="active">About</a>
+    </div>
+    <div>
+        <div ui-view></div>
+    </div>
+</div>
+
+<script src="~/node_modules/angular/angular.js"></script>
+<script src="~/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="~/app/route.module.js"></script>
+<script src="~/app/app.module.js"></script>
+<script src="~/app/model/student.js"></script>
+<script src="~/app/service/homeService.js"></script>
+<script src="~/app/controller/homeController.js"></script>

@@ -1,0 +1,20 @@
+﻿<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Active</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="x in vm.students">
+            <td>{{x.firstName}} {{x.lastName}}</td>
+            <td>{{x.age}}</td>
+            <td>{{x.address}}</td>
+            <td>{{x.active}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
