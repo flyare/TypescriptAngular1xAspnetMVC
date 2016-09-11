@@ -4,12 +4,6 @@ module App.Service {
 
     export class HomeService {
         static $inject = ["$http"];
-        /*getStudents = ():Array<Student> => [
-            { firstName: "Duc", lastName: "Phan Hoang", age: 35, address: "HCM", active: true },
-            { firstName: "Tran", lastName: "Tam Phong", age: 20, address: "HN", active: true },
-            { firstName: "Quynh", lastName: "Duong Dai", age: 58, address: "Hue", active: false },
-            { firstName: "Son", lastName: "Cao Thai", age: 27, address: "NGA", active: false }
-        ]*/
 
         constructor(private $http: ng.IHttpService) {
         }

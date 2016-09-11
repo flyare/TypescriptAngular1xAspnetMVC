@@ -13,7 +13,13 @@ module App {
                 name: 'about',
                 url: '/about',
                 templateUrl: '/app/view/about/about.html'
-                });
+            }).state({
+                name: 'product',
+                url: '/product',
+                templateUrl: '/app/view/product/index.html',
+                controller: "App.Controller.ProductController",
+                controllerAs: 'vm'
+            });
 
             $urlRouterProvider.otherwise("/home");
         }

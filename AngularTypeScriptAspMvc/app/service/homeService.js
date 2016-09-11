@@ -4,12 +4,6 @@ var App;
     var Service;
     (function (Service) {
         var HomeService = (function () {
-            /*getStudents = ():Array<Student> => [
-                { firstName: "Duc", lastName: "Phan Hoang", age: 35, address: "HCM", active: true },
-                { firstName: "Tran", lastName: "Tam Phong", age: 20, address: "HN", active: true },
-                { firstName: "Quynh", lastName: "Duong Dai", age: 58, address: "Hue", active: false },
-                { firstName: "Son", lastName: "Cao Thai", age: 27, address: "NGA", active: false }
-            ]*/
             function HomeService($http) {
                 var _this = this;
                 this.$http = $http;
